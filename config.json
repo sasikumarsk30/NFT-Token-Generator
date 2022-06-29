@@ -1,0 +1,35 @@
+{
+  "layers": [
+    {
+      "name": "OutlineSection",
+      "values": ["BlueCircle", "YellowCircle", "Square", "Penta", "Sphere"],
+      "trait_path": "./trait-layers/smiley-content/outlineshape",
+      "filename": ["BlueCircle", "YellowCircle", "GreenSquare", "PinkPenta", "LightSphere"],
+      "weights": [20,20,20,20,20]
+    },
+    {
+      "name": "EyeSection",
+      "values": ["Angry", "Brown", "Flat"],
+      "trait_path": "./trait-layers/smiley-content/eyeshape",
+      "filename": ["AngryEye", "BrownEye", "FlatEye"],
+      "weights": [35,35,30]
+    },
+    {
+      "name": "NoseSection",
+      "values": ["Brown", "Angry", "Joker"],
+      "trait_path": "./trait-layers/smiley-content/noseshape",
+      "filename": ["BrownNose", "AngryNose", "JokerNose"],
+      "weights": [35,35,30]
+    }
+  ],
+  "incompatibilities": [
+    {
+      "layer": "OutlineSection",
+      "value": "Blue",
+      "incompatible_with": ["Python Logo 2"]
+    }
+  ],
+  "baseURI": ".",
+  "name": "NFT #",
+  "description": "This is a description for this NFT series."
+}
